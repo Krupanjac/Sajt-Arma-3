@@ -52,3 +52,35 @@
     left: 50%;
     top: 50%;
 }
+
+
+   /* Style for the images and links */
+   #LogoDiv img,
+   #InstaDiv img,
+   #TTDiv img,
+   #YtDiv img,
+   #DisDiv img {
+       transition:  0.3s; /* Add a smooth transition effect */
+       transform-origin : center; /* Set the transformation origin */
+   }
+
+   /* Hover effect for the images and links */
+   #InstaDiv:hover img,
+   #TTDiv:hover img,
+   #YtDiv:hover img,
+   #DisDiv:hover img {
+       filter: brightness(1.5); /* Increase brightness on hover */
+    }
+
+    /* Hover effect for #LogoDiv */
+    #LogoDiv img {
+        filter : grayscale(80%); /* Add the grayscale effect */
+        transition: filter 0.3s, transform 0.5s, margin 0.3s; /* Add a smooth transition for the image and margin */
+    }
+
+    #LogoDiv:hover img {
+        transform-origin: center; /* Set the transformation origin */
+        filter: brightness(1.2); /* Increase brightness on hover */
+        filter : grayscale(0%); /* Remove the grayscale effect */
+        transform: scale(1.1) translateY(-130px) translateX(-130px); /* Zoom in by 20% and move up by 10px on hover */
+    }
