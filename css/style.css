@@ -1,0 +1,54 @@
+*{margin: 0;
+  padding: 0;}
+#Logo{
+    width: 15%;
+    height: 30%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ left: 50%;
+ top: 30%;
+}
+#Insta{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 43.5%;
+    top: 55%;
+}
+#Yt{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 55%;
+}
+#TT{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 56.5%;
+    top: 55%;
+}
+#Dis{
+    width: 370px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 49.6%;
+    top: 70%;
+}
+#Pozadina{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
