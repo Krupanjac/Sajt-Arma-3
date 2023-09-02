@@ -61,6 +61,8 @@
    #DisDiv img {
        transition:  0.3s; /* Add a smooth transition effect */
        transform-origin : center; /* Set the transformation origin */
+       filter : grayscale(70%); /* Add the grayscale effect */
+       transition : filter 3s; /* Add a smooth transition for the image */
    }
 
    /* Hover effect for the images and links */
@@ -68,7 +70,9 @@
    #TTDiv:hover img,
    #YtDiv:hover img,
    #DisDiv:hover img {
-       filter: brightness(1.5); /* Increase brightness on hover */
+       filter: brightness(1.2); /* Increase brightness on hover */
+       filter : grayscale(20%); /* Remove the grayscale effect */
+       transition : filter 0.3s; /* Add a smooth transition for the image */
     }
 
     #DisDiv:hover img {
