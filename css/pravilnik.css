@@ -1,0 +1,21 @@
+ *{padding: 0;
+   margin: 0;}
+
+   .float-child{
+    float: left;
+    width: 50%;
+  }
+  #Right{
+   width: 30%;
+   float: right;
+  }
+  #Lef{
+    float: right;
+   }
+  select{
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+   }
