@@ -1,21 +1,46 @@
  *{padding: 0;
-   margin: 0;}
+   margin: 0;
+  background-color: #6b6952;}
 
    .float-child{
     float: left;
     width: 50%;
   }
   #Right{
-   width: 30%;
    float: right;
+   width: 49.57%;
+   border: 2px solid black;
   }
-  #Lef{
-    float: right;
+  #Left{
+    border: 2px solid black;
+    width: 50%;
    }
   select{
+    margin-top: 10%;
     width: 500px;
     height: 20px;
-    position: absolute;
-    top: 20%;
-    right: 15%;
+    margin-left: 20%;
    }
+   #Tekst{
+    margin-top: 5%;
+    margin-left: 20%;
+   }
+   #TekstP{
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px solid black;
+   }
+   #TekstD{
+   position: absolute;
+   margin-left: 10%;
+   top: 17%;
+    border: 2px solid black;
+   }
+   #TekstT{
+    position: absolute;
+    margin-left: 10%;
+    top: 17%;
+     border: 2px solid black;
+    }
+   
+   
