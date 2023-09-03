@@ -31,16 +31,16 @@
     border: 2px solid black;
    }
    #TekstD{
-   position: absolute;
-   margin-left: 10%;
-   top: 17%;
+  
+    margin-left: 20%;
+    margin-top: 5%;
     border: 2px solid black;
    }
    #TekstT{
-    position: absolute;
-    margin-left: 10%;
-    top: 17%;
-     border: 2px solid black;
+    
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px solid black;
     }
    
    
